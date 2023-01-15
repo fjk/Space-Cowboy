@@ -1,4 +1,4 @@
-
+[![Actions Status](https://github.com/fjk/Space-Cowboy/actions/workflows/test.yml/badge.svg)](https://github.com/fjk/Space-Cowboy/actions)
 # NAME
 
 Space::Cowboy - It's new $module
