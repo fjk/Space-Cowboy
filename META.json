@@ -32,6 +32,9 @@
          }
       },
       "develop" : {
+         "recommends" : {
+            "Dist::Zilla" : "0"
+         },
          "requires" : {
             "Test::CPAN::Meta" : "0",
             "Test::MinimumVersion::Fast" : "0.04",
@@ -42,6 +45,9 @@
       },
       "runtime" : {
          "requires" : {
+            "Moo" : "0.2000",
+            "Plack" : "0.9980",
+            "Starman" : "0.2000",
             "perl" : "5.008001"
          }
       },
@@ -63,7 +69,7 @@
          "web" : "https://github.com/fjk/Space-Cowboy"
       }
    },
-   "version" : "0.03",
+   "version" : "0.05",
    "x_authority" : "cpan:FJK",
    "x_serialization_backend" : "JSON::PP version 4.06",
    "x_static_install" : 1
